@@ -1,0 +1,52 @@
+/*
+Error: Invalid CSS after "    opacity: ": expected expression (e.g. 1px, bold), was "@opacity;"
+        on line 284 of E:\DOCS\DJ Ol-Star\WEB\CNO PROJECTS\PORTFOLIO\scss\badges.scss
+
+279:         transform: rotate(359deg);
+280:     }
+281: }
+282: 
+283: .opacity(@opacity) {
+284:     opacity: @opacity;
+285:     @opacity-ie: (@opacity * 100);
+286:     filter: ~"alpha(opacity=@{opacity-ie})";
+287: }
+288: 
+289: .mc-transtition (@duration: .3s) {
+
+Backtrace:
+E:\DOCS\DJ Ol-Star\WEB\CNO PROJECTS\PORTFOLIO\scss\badges.scss:284
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:723:in `assert_expr'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:68:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1134:in `sass_script'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:988:in `value!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:796:in `block in try_declaration'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `call'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    opacity: \": expected expression (e.g. 1px, bold), was \"@opacity;\"\A         on line 284 of E:\DOCS\DJ Ol-Star\WEB\CNO PROJECTS\PORTFOLIO\scss\badges.scss\A \A 279:         transform: rotate(359deg);\A 280:     }\A 281: }\A 282: \A 283: .opacity(@opacity) {\A 284:     opacity: @opacity;\A 285:     @opacity-ie: (@opacity * 100);\A 286:     filter: ~\"alpha(opacity=@{opacity-ie})\";\A 287: }\A 288: \A 289: .mc-transtition (@duration: .3s) {"; }
