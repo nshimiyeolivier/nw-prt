@@ -247,3 +247,21 @@ body {
           border-radius: 8px;
           margin: 15px 0;
           }
+
+
+/************************************************************************
+                              MEDIAQUERIES
+*************************************************************************/
+@media only screen and (max-width: 420px) {
+    #umwirondoro{
+      margin-top: -124px;
+    }
+
+    #umwirondoro img{
+      width: 45%;
+    }
+
+    #umwirondoro .fa-5x {
+    font-size: 2em;
+}
+}
