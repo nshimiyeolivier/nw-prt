@@ -252,16 +252,32 @@ body {
 /************************************************************************
                               MEDIAQUERIES
 *************************************************************************/
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 762px) {
     #umwirondoro{
       margin-top: -124px;
     }
 
     #umwirondoro img{
-      width: 45%;
+      width: 30%;
     }
 
     #umwirondoro .fa-5x {
     font-size: 2em;
 }
+}
+
+@media only screen and (max-width: 562px) {
+
+    #umwirondoro img{
+      width: 39%;
+    }
+
+}
+
+@media only screen and (max-width: 328px) {
+
+    #umwirondoro img{
+      width: 58%;
+    }
+
 }
